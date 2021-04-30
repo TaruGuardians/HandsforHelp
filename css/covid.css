@@ -12,11 +12,11 @@ h1 {
 
 
 
-
+/* Navigation portion */
 
 #nav-portion{
   background-color: #0d0520;
-  color: #fff;
+  color: #a9dd19;
 
 }
 .container-fluid {
@@ -25,7 +25,7 @@ h1 {
 
 .navbar {
     padding: 0 0 4.5rem;
-    background-color: black;
+    background-color: rgb(79, 12, 92);
   }
   
   .navbar-brand {
@@ -38,6 +38,7 @@ h1 {
     font-size: 1.2rem;
     font-family: "Montserrat-light";
     margin: 0 15px;
+    
   }
 
 
@@ -46,6 +47,7 @@ h1 {
 
 
 
+/* title portion */
 
   .download-button {
     margin: 5% 3% 5% 0;
@@ -77,7 +79,7 @@ h1 {
 
 
 
-
+/*features portion*/
 
 #features {
     padding: 7% 15%;
@@ -105,7 +107,7 @@ h1 {
 
 
 
-
+/* search portion */
 
 
   #pricing {
@@ -121,7 +123,7 @@ h1 {
 
 
 
-
+/* cta portion */
 
   #cta {
     background-color: #1b4d5a;
@@ -143,17 +145,39 @@ h1 {
 
 
 
-
+/* footer portion */
 
   #footer {
     padding: 7% 15%;
-    text-align: center;
+  
+    background-color: #28527a;
   }
   
   .social-icon {
-    margin: 20px 10px;
-  }
+    width: 15%;
+    padding-left: 2%;
+    padding-top: 10%;
+    }
+
+    .uttu{
+      padding-left: 10%;
+    }
   
   .don{
     color: #8CC152;
+  }
+
+  .footer-image{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .injection-image{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
