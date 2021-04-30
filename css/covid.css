@@ -139,12 +139,25 @@ h1 {
 
 
   #pricing {
-    padding: 100px;
+    padding: 0px 100px 0px ;
+    background-color: #fffbfd;
   }
+
+.pricing-p{
+  color: #206a5d;
+}
   
+.above{
+  color: #325288;
+}
   .pricing-column {
     padding: 3% 2%;
   }
+
+  .don{
+    color: #8CC152;
+  }
+
 
 
 
@@ -191,10 +204,7 @@ h1 {
       padding-left: 10%;
     }
   
-  .don{
-    color: #8CC152;
-  }
-
+  
   .footer-image{
     width: 40%;
     display: block;
