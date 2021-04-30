@@ -12,7 +12,7 @@ h1 {
 
 
 
-
+/* Navigation portion */
 
 #nav-portion{
   background-color: #0d0520;
@@ -47,7 +47,7 @@ h1 {
 
 
 
-
+/* title portion */
 
   .download-button {
     margin: 5% 3% 5% 0;
@@ -79,7 +79,7 @@ h1 {
 
 
 
-
+/*features portion*/
 
 #features {
     padding: 7% 15%;
@@ -107,7 +107,7 @@ h1 {
 
 
 
-
+/* search portion */
 
 
   #pricing {
@@ -123,7 +123,7 @@ h1 {
 
 
 
-
+/* cta portion */
 
   #cta {
     background-color: #1b4d5a;
@@ -145,7 +145,7 @@ h1 {
 
 
 
-
+/* footer portion */
 
   #footer {
     padding: 7% 15%;
