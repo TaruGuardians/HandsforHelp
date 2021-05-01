@@ -15,23 +15,27 @@ h1 {
 /* Navigation portion */
 
 #nav-portion{
-  background-color: #0d0520;
+  background-color: rgb(79, 12, 92);
   color: #a9dd19;
 
 }
-.container-fluid {
-    padding: 3% 15% 7%;
-  }
 
-.navbar {
-    padding: 0 0 4.5rem;
+.logo{
+  width: 15%;
+  
+}
+
+   .navbar {
+    padding: 1rem 1rem 1rem;
     background-color: rgb(79, 12, 92);
   }
   
   .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2rem;
+    padding-top: 1rem;
+    font-family: 'Charm', cursive;
+    font-size: 1.3rem;
     font-weight: bold;
+    margin: 0 0 0;
   }
   
   .nav-link {
@@ -40,6 +44,10 @@ h1 {
     margin: 0 15px;
     
   }
+  .adjust{
+    padding-left: 8%;
+  }
+
 
 
 
