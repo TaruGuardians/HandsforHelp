@@ -9,10 +9,10 @@ Then, You got here right!!
 
 <h1 align="center"> _"HandsForHelp(UniteToFight)"_ </h1>
 
-✨**HandsForHelp**,our Project is entirely dedicated to provide instant help to needy people. Gone were days when people were waiting for vaccine but now they are dying due to crisis of beds, plasma and oxygen cylinder. We are creating a site where any person who needs bed,plasma or oxygen cylinder can check our website irrespective of any district or state.
+✨**HandsForHelp**,our Project is entirely dedicated to provide instant help to needy people. Gone were days when people were waiting for vaccine but now they are dying due to crisis of beds, plasma and oxygen cylinder. We are creating a site where any person who need bed, plasma or oxygen cylinder can check our website and get help irrespective of any district or state.
 
 
-The Main Motive of this project is save a life, family and bring happiness in someone's life by being a Voice of Hope.
+The Main Motive of this project is save a life and bring happiness in someone's life by being a Voice of Hope.
 
 
 So, Be a helping hand, What are you waiting for?
@@ -22,7 +22,7 @@ So, Be a helping hand, What are you waiting for?
 # Tech-Stack :
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
-# Every Contribution is blessing! :red_heart:
+# Every Contribution is a blessing! ❣️
 
 We want contributing to HandsForHelp to be useful and utilizable for everyone. We would love to have your contributions.
 
@@ -101,7 +101,7 @@ git push -u origin <your_branch_name>
 
 **15** Voila :exclamation: You have made a PR to the HandsforHelp :boom: . Wait for your submission to be accepted and your PR to be merged.
 
-###
+
 
 
 
