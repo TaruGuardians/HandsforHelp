@@ -1,4 +1,4 @@
-# HandsforHelp
+
 <h1 align="center">HandsforHelp</h1>
 
 <!-- <p align="center"><img src="" width = 40%></p> some image related to covid will be added later-->
