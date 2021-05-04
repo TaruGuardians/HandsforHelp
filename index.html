@@ -21,6 +21,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  
 </head>
 
 <body>
@@ -72,14 +74,13 @@
           
           <select name="state" class="input-field" id="state" required>
             <!-- options to select your region -->
-            <option value="">Enter your state
-            </option>
-            <option value="Bihar">Bihar</option>
-            <option value="Jharkhand">Jharkhand</option>
-            <option value="West Bengal">West Bengal</option>
+            <option class="b" value="">Enter your state</option>
+            <option class="b" value="Bihar">Bihar</option>
+            <option class="b" value="Jharkhand">Jharkhand</option>
+            <option class="b" value="West Bengal">West Bengal</option>
           </select>
           <p></p>
-          <button type="button" class="search-button">Search</button>
+          <button type="button" class="search-button" onclick="mypress()">Search</button>
         </div>
         
       </center>
@@ -159,9 +160,9 @@
               Select
             </button>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Bihar</a>
+              <a class="dropdown-item" href="bihar.html">Bihar</a>
               <a class="dropdown-item" href="jharkhand.html">Jharkhand</a>
-              <a class="dropdown-item" href="#">West Bengal</a>
+              <a class="dropdown-item" href="west-bengal.html">West Bengal</a>
             </div>
           </div>
         </div>
@@ -233,7 +234,7 @@
     
   </section>
 
-
+<script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
