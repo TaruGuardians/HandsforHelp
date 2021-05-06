@@ -4,10 +4,14 @@ h1 {
     line-height: 1.5;
     font-weight:600;
   }
-  body {
+  html,body {
     font-family: Montserrat;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
   }
-  
   
   
   
@@ -51,7 +55,7 @@ h1 {
   /* districts portion */
 
   .uttu{
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 0rem 1rem 1rem 1rem;
   }
 
   .feature-box{
@@ -94,7 +98,7 @@ h1 {
     padding-top: 10%;
     }
   
-    .uttu{
+    .foot{
       padding-left: 6%;
     }
   
