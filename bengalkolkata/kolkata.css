@@ -1,0 +1,26 @@
+.heading{
+    background-color: rgb(215, 241, 241);
+    color:rgb(243, 4, 4);
+    text-align-last: center;
+}
+.mini-head{
+    color:brown;
+    text-align: center;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #c7bbbb;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eceee2;
+  }
