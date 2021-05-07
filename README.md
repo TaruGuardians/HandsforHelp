@@ -1,9 +1,10 @@
 
-<h1 align="center">HandsforHelp</h1>
+# HandsforHelp
+
 
 <!-- <p align="center"><img src="" width = 40%></p> some image related to covid will be added later-->
 
-Do you want to be a life Saviour?
+<h3>Do you want to be a life Saviour?</h3>
 
 Then, You got here right!! 
 
