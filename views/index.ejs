@@ -1,0 +1,147 @@
+<%- include ("partials/header")%>
+    <!-- Search box for states  -->
+    <div>
+      <section id="search-box">
+        <center>
+        <div class="form-box">
+          <img id="images" src="assets/World health day-pana.png" >
+          
+          <select name="state" class="input-field" id="state" required>
+            <!-- options to select your region -->
+            <option class="b" value="">Enter your state</option>
+            <option class="b" value="Bihar">Bihar</option>
+            <option class="b" value="Jharkhand">Jharkhand</option>
+            <option class="b" value="West Bengal">West Bengal</option>
+          </select>
+          <p></p>
+          <button type="button" class="search-button" onclick="mypress()">Search</button>
+        </div>
+        
+      </center>
+      </section>
+     </div>
+      <div class="end-border">
+     <!--  -->
+      </div>
+  
+  
+
+
+      <section id="title-portion">
+        <!-- Title -->
+    
+        <div class="row_head">
+          
+            <h3  class="row_head_first">Let's Fight Back Together!</h3>
+            <h4 class="row_head_second">We are Virtual, Yet Together</h4>
+            <P id="para">Humanity has experienced the most serious global pandemic in a century while the devastating second wave has broken all previous records. India is facing an acute covid crisis and currently, people are dying due to shortage of oxygen cylinders, hospital beds and plasma donars. The situation in Our Country is a bleak reminder that none of us will be safe until everyone is safe. Hence this is a small initiative by our NGO TaruGuardians where we will arrange the resources for the Covid Warriors and save as many lives as possible. </P>
+            </div>
+    </section>
+
+
+
+
+  
+
+
+
+
+  </div>
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-bed fa-4x utkarsh"></i>
+        <h3>Beds.</h3>
+        <p>Get information regarding medical beds.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-air-freshener fa-4x utkarsh"></i>
+        <h3>Oxygen.</h3>
+        <p>Get information regarding Oxygen supplies.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-hospital-user fa-4x utkarsh"></i>
+        <h3>Plasma.</h3>
+        <p>Get information regarding Plasma donars.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Search -->
+
+  <section id="pricing">
+
+    <h2 class="don">We are trying our best.</h2>
+    <p class="pricing-p">We make sure our every information is verified.</p>
+
+
+    <div class="row">
+
+
+      <div class="pricing-column col-lg-4 col-md-4">
+        <div class="card text-center">
+          <div class="card-header above">
+            <h3>Select State</h3>
+          </div>
+          <div class="card-body below">
+            <h3>We are with you</h3>
+            <p>Choose the state where you need information about supplies and contacts.</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Select
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/bihar">Bihar</a>
+              <a class="dropdown-item" href="/jharkhand">Jharkhand</a>
+              <a class="dropdown-item" href="/west-bengal">West Bengal</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="pricing-column col-lg-4 col-md-4">
+        <div class="card text-center">
+          <div class="card-header above">
+            <h3>Contact Us</h3>
+          </div>
+          <div class="card-body below">
+            <h3>Need any help</h3>
+            <p>If you need to talk to us regarding anything, click on the button below</p>
+            <a href="/contact"><button class="btn btn-lg btn-block btn-outline-success"type="button">Contact</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-4">
+        <div class="card text-center">
+          <div class="card-header above">
+            <h3>Donate</h3>
+          </div>
+          <div class="card-body below">
+            <h3>Help Others</h3>
+            <p>Please also donate so we can reach and help the maximum people we can.</p>
+           <button class="btn btn-lg btn-block btn-outline-success"type="button">Donate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Add Information</h3>
+    <p>Send us any information, contact details, files, pdf's
+      or links which you don't find in our website and you think it can help to save lives. We will add them so that others can see.</p>
+    <a href="mailto:taruguardians@gmail.com"><button type="button" class="btn btn-lg btn-dark download-button"><i class="fas fa-seedling"></i> Send Us</button></a>
+
+  </section>
+  <%- include ("partials/footer")%>
