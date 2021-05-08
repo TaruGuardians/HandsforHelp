@@ -53,17 +53,31 @@ h1 {
 
 
 /* heading portion */
-
+.head_{
+  background-color: rgb(215, 241, 241);
+}
 .heading{
-    background-color: rgb(215, 241, 241);
-    color:rgb(243, 4, 4);
+   
+    color:#F2AC29;
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
     text-align-last: center;
 }
-.mini-head{
-    color:brown;
+.mini_head{
+    color:rgb(0, 0, 0);
     text-align: center;
 }
+.line_sol{
+  font-family: 'Pangolin', cursive;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
 
+}
 
 
 /*table portion */
