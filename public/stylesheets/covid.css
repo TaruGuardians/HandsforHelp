@@ -1,0 +1,307 @@
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight:600;
+  }
+  body {
+    font-family: Montserrat;
+  }
+
+
+
+
+
+/* Navigation portion */
+
+#nav-portion{
+  background-color: rgb(79, 12, 92);
+  color: #a9dd19;
+
+}
+
+.logo{
+  width: 15%;
+  
+}
+
+   .navbar {
+    padding: 1rem 1rem 1rem;
+    background-color: rgb(79, 12, 92);
+  }
+  
+  .navbar-brand {
+    padding-top: 1rem;
+    font-family: 'Charm', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 0 0;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    margin: 0 15px;
+    
+  }
+  .adjust{
+    padding-left: 8%;
+  }
+
+  /* css for the search box */
+#search-box{
+  width: 100%;
+  height: 35rem;
+  position: relative;
+
+  background: #8DC3CC;
+  
+  overflow: hidden;
+
+}
+@media screen and (max-width: 800px){
+  #search-box{
+    height: auto;
+  }
+}
+/* inner search area */
+.form-box{
+  width: 90%;
+  height: 35rem;
+  position:relative;
+  background: #FDCBCB;
+  padding-bottom: 1rem;
+  display: block;
+  margin-top: 0;
+  
+  
+}
+@media screen and (max-width: 800px){
+  .form-box{
+    height: auto;
+  }
+}
+/* css for the image in search area */
+#images{
+  width:40rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+
+  
+}
+@media screen and (max-width: 800px){
+  #images{
+  width:100%;
+  padding-top: 1rem;
+
+  }
+}
+/* css for input field in search area */
+.input-field{
+  width:35%;
+  height: 3rem;
+  border-radius: 30px;
+  
+  
+}
+@media screen and (max-width: 900px){
+  .input-field{
+  width:70%;
+  
+  }
+}
+/* css for a margin border */
+.end-border{
+  width: 100%;
+  background: rgb(179, 169, 169);
+  height: 0.3rem;
+}
+/* css for search button */
+.search-button{
+  
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f,#ffad06);
+  border: 1;
+  outline: none;
+  width: 25%;
+   
+
+}
+
+
+
+
+
+
+
+
+
+/* title portion */
+
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  .title-image {
+    width: 50%;
+     text-align:right;
+  }
+  
+  h3 {
+    font-family: "Montserrat";
+  }
+  
+  h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  #title-portion{
+    background-color:#fff;
+    color:#0a3307;
+    font-family: "Montserrat";
+    padding: 7% 15%;
+    text-align: center;
+  }
+  #title-portion p{
+    color:#0d0520;
+  }
+.row_head_first{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+    
+}
+.row_head_second{
+
+  color:#27f58e;
+}
+
+
+
+
+
+
+
+
+
+
+/*features portion*/
+
+#features {
+    background-color: #fff;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .utkarsh {
+    color: #184d47;
+    margin-bottom: 1rem;
+  }
+  
+  .utkarsh:hover {
+    color: #8CC152;
+  }
+
+
+
+
+
+
+
+
+/* search portion */
+
+
+  #pricing {
+    padding: 0px 100px 0px ;
+    background-color: #fffbfd;
+  }
+
+.pricing-p{
+  color: #206a5d;
+}
+  
+.above{
+  color: #325288;
+}
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+  .don{
+    color: #8CC152;
+  }
+
+
+
+
+
+
+
+/* cta portion */
+
+  #cta {
+    background-color: #1b4d5a;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .cta-heading {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+
+
+
+
+
+
+/* footer portion */
+
+  #footer {
+    padding: 7% 15%;
+  
+    background-color: #28527a;
+  }
+  
+  .social-icon {
+    width: 15%;
+    padding-left: 2%;
+    padding-top: 10%;
+    }
+
+    .uttu{
+      padding-left: 10%;
+    }
+  
+  
+  .footer-image{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .injection-image{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

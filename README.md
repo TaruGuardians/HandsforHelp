@@ -1,10 +1,9 @@
 
-# HandsforHelp
-
+<h1 align="center">HandsforHelp</h1>
 
 <!-- <p align="center"><img src="" width = 40%></p> some image related to covid will be added later-->
 
-<h3>Do you want to be a life Saviour?</h3>
+Do you want to be a life Saviour?
 
 Then, You got here right!! 
 
@@ -28,6 +27,28 @@ So, Be a helping hand, What are you waiting for?
 We want contributing to HandsForHelp to be useful and utilizable for everyone. We would love to have your contributions.
 
 Happy Submissions :slightly_smiling_face:
+
+<hr>
+
+# Usage:
+
+- Prerequisits :
+```
+    1. node-js (https://nodejs.org/en/download/)
+    2. npm (included with node)
+    3. any code editor
+```
+- Clone the repositary and navigate to the folder
+```
+    git clone https://github.com/TaruGuardians/HandsforHelp.git`
+    cd HandsforHelp
+```
+- thats it! now you can run any project by starting the server
+```
+    npm install (to install all the dependancies)
+    npm run start
+ ```
+go to the local server at http://localhost:3000/ and start exploring!
 
 ## Contribution Guidelines🏗
 

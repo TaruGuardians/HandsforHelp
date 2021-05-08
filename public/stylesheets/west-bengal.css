@@ -1,0 +1,115 @@
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight:600;
+  }
+  body {
+    font-family: Montserrat;
+  }
+  
+  
+  
+  
+  
+  /* Navigation portion */
+  
+  #nav-portion{
+  background-color: #1b4d5a;
+  color: #a9dd19;
+  
+  }
+  
+  .logo{
+  width: 15%;
+  
+  }
+  
+   .navbar {
+    padding: 1rem 1rem 1rem;
+    background-color: #1b4d5a;
+  }
+  
+  .navbar-brand {
+    padding-top: 1rem;
+    font-family: 'Charm', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 0 0;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+    margin: 0 15px;
+    
+  }
+  .adjust{
+    padding-left: 8%;
+  }
+
+  /* districts portion */
+
+  .uttu{
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .feature-box{
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  
+  
+  
+  
+  /* cta portion */
+  
+  #cta {
+    background-color: #1b4d5a;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .cta-heading {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  /* footer portion */
+  
+  #footer {
+    padding: 1% 10%;
+  
+    background-color: #28527a;
+  }
+  
+  .social-icon {
+    width: 15%;
+    padding-left: 2%;
+    padding-top: 10%;
+    }
+  
+    .uttu{
+      padding-left: 6%;
+    }
+  
+  
+  .footer-image{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .injection-image{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

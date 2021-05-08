@@ -1,0 +1,28 @@
+<%- include ("partials/header")%>
+<div class="container">
+    <form action="send" method="POST" id="contact-form" enctype = "multipart/form-data" onsubmit="setTimeout(function(){window.location.reload();},10);">
+        <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="name" class="form-control" name="name" required>
+        </div>
+
+        <div class="form-group">
+        <label for="pwd">Email:</label>
+        <input type="email" class="form-control" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="pwd">Phone:</label>
+            <input type="phone" class="form-control" name="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="pwd">Message:</label>
+            <input type="message" class="form-control" style= "height:100px;" name="message" required>
+        </div>
+
+        <button type="submit" value="submit" class="btn btn-default">Send</button>
+    </form>
+    </div>
+  <br>
+<%- include ("partials/footer")%>
