@@ -1,0 +1,123 @@
+
+body {
+    background-color: lightgray;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Button  */
+.btn {
+    align-items: right;
+    font-family: 'Dancing Script', cursive;
+    margin: 5px 20px;
+    background-color: rgb(230, 11, 11);
+    color: whitesmoke;
+    padding: 5px 7px;
+    border-radius: 9px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(16, 130, 223);
+}
+
+/* About Us  */
+.Secondary{
+    text-align:center;
+    border: 5px solid rgb(174, 209, 16);
+    border-radius: 32px;
+    background-color:lightgoldenrodyellow;
+    margin: 40px 70px 50px 70px;
+    padding:16px 22px 16px 22px;
+}
+#SecHead{
+    font-family: 'Pangolin', cursive;
+    color:rgb(63, 231, 21);
+    font-size: 70px;
+}
+
+#ThePara{
+    font-family: 'Playball', cursive;
+    font-size: 23px;
+    color:rgb(255, 2, 2)
+}
+
+/* Our Developers */
+.BKG{
+    background-color:lightslategrey;
+    margin: 40px 0px 50px 0px;
+    padding:16px 22px 16px 22px;
+}
+.three{
+    text-align:center;
+    border: 5px solid rgb(94, 26, 221);
+    border-radius: 32px;
+    background-color:lightgoldenrodyellow;
+    margin: 40px 70px 50px 50px;
+    padding:16px 22px 16px 22px;
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+}
+img {
+    border-radius: 50%;
+    margin: 40px 70px 50px 50px;
+  }
+
+.pics{
+    
+    
+    display: grid;
+    grid-template-columns: repeat(3,0.1fr); 
+    grid-template-rows: repeat(2,0.1fr);
+    justify-content: center;
+}
+
+#Title{
+    font-family: 'Satisfy', cursive;
+    font-size: 31px;
+    color:slategrey;
+}
+#Design{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    color:rgb(15, 166, 204);
+}
+
+/* Our Volenteers */
+.Fourth{
+    text-align:center;
+    border: 3px solid rgb(174, 209, 16);
+    border-radius: 32px;
+    background-color:lightgoldenrodyellow;
+    margin: 40px 70px 50px 50px;
+    padding:16px 22px 16px 22px;
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,0.1fr);
+    grid-template-rows: repeat(4,0.1fr);
+    justify-content: center;
+    
+
+}
+#Title2{
+    font-family: 'Satisfy', cursive;
+    font-size: 27px;
+    color:slategrey;
+}
+
+
+
+ #footerA{
+    border: 1px solid pink;
+    background-color:lightcyan;
+    font-size: 50px;
+    text-align:center;
+    color: goldenrod;
+}
+
