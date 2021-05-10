@@ -80,23 +80,58 @@ h1 {
 }
 
 
+
+
+
 /*table portion */
+h1{
+  color:#fff;
+  padding:25px;
+}
+h2{
+  color:#03471d;
+  padding:25px;
+}
+
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width:100%;
   }
   
-  td, th {
-    border: 1px solid #c7bbbb;
+  table th{
     text-align: left;
-    padding: 8px;
+    background-color: rgb(61, 181, 218);
+    color:#fff;
+    padding:6px 30px 8px 14px;
+  }
+
+  table  td{
+    border: 3px  solid #fff;
+    padding: 6px 8px;
   }
   
-  tr:nth-child(even) {
-    background-color: #eceee2;
+  tr:nth-child(odd) {
+    background-color: rgb(215, 241, 241);
   }
+  tr:nth-child(even){
+    background-color: rgb(247, 252, 251);
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /* cta portion */
