@@ -18,3 +18,13 @@ function mypress()
         alert("Enter a state!");
     }
 }
+
+function donate()
+{
+    window.open("https://milaap.org/fundraisers/support-taruguardians?mlp_referrer_id=5037932&utm_medium=created&utm_source=virtual_bank_account");
+}
+
+function about()
+{
+    window.open("About Us/AboutUs.html");
+}
