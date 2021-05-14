@@ -1,13 +1,10 @@
 
 body {
-    background-color: lightgray;
+    background-color: rgb(228, 214, 214);
 }
 
 html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    
     overflow-x: hidden; 
   }
 
@@ -25,60 +22,65 @@ html,body {
   }
   
      .navbar {
-      padding: 1rem 1rem 1rem;
+      
       background-color: #1B4D5A;
     }
     
     
     .navbar-brand {
-      padding-top: 1rem;
+      
       font-family: 'Charm', cursive;
-      font-size: 1.3rem;
+      
       font-weight: bold;
-      margin: 0 0 0;
+      
     }
     
     .nav-link {
-      font-size: 1.2rem;
-      font-family: "Montserrat-light";
-      margin: 0 15px;
+      
       
     }
     .adjust{
-      padding-left: 8%;
+      
     }
 
 
 /* About Us  */
 .Secondary{
     text-align:center;
-    border: 5px solid rgb(174, 209, 16);
-    border-radius: 32px;
-    background-color:lightgoldenrodyellow;
-    margin: 40px 70px 50px 70px;
-    padding:16px 22px 16px 22px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px 10px 10px 10px;
+    background-color:#D7FCBF;
+    padding: 20px 20px 20px 20px;
+    border-radius: 0 100px 0 100px;
+    
 }
+/* About Us Heading */
 #SecHead{
-    font-family: 'Pangolin', cursive;
-    color:rgb(63, 231, 21);
-    font-size: 70px;
+    
+    color:rgb(255, 255, 255);
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+    font-family: 'Itim', cursive;
 }
-
+/* About Us Content */
 #ThePara{
-    font-family: 'Playball', cursive;
-    font-size: 23px;
-    color:rgb(255, 2, 2)
+    
+    font-size: smaller;
+    color:rgb(0, 0, 0)
 }
 
 
 
-/* Our Developers */
+/* Our Developers box*/
 
 #devs{
-  padding: 2% 8%;
+  margin: 10px 10px 10px 10px;
   background-color: lightslategrey;
 }
 
+/* Our Developers box*/
 .bg-primary{
   background-color: lightgoldenrodyellow !important;
   border: none!important;
@@ -87,22 +89,27 @@ html,body {
 .tas {
   border-radius: 50%;
   width: 50%;
+  border: 1px solid rgb(0, 0, 0);
 }
 .name{
    text-align: center;
-   font-family: 'Satisfy', cursive;
-   font-size: 31px;
+   font-family: ;
+   font-size: 20px;
    color:slategrey;
 }
+/* Our Developers Heading*/
 .devs-head{
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 50px;
-  color:rgb(15, 166, 204);
-}
+ 
+  font-size: 40px;
+  color:rgb(0, 0, 0);
+  font-family: 'Itim', cursive;
+  
+  }
+/* Our Developers Inner box*/
 .three{
   text-align:center;
-  border: 5px solid rgb(94, 26, 221);
-  border-radius: 32px;
+  border: 1px solid rgb(94, 26, 221);
+  
   background-color:lightgoldenrodyellow;
   padding:16px 22px 16px 22px;
   box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
@@ -114,28 +121,14 @@ html,body {
 /* Our Volenteers */
 .Fourth{
     text-align:center;
-    border: 3px solid rgb(174, 209, 16);
-    border-radius: 32px;
+    border: 1px solid rgb(174, 209, 16);
     background-color:lightgoldenrodyellow;
     margin: 40px 70px 50px 50px;
     padding:16px 22px 16px 22px;
     box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+    font-size: 2rem;
+    font-family: 'Itim', cursive;
 }
-.images{
-    display: grid;
-    grid-template-columns: repeat(4,0.1fr);
-    grid-template-rows: repeat(4,0.1fr);
-    justify-content: center;
-    
-
-}
-#Title2{
-    font-family: 'Satisfy', cursive;
-    font-size: 27px;
-    color:slategrey;
-}
-
-
 
 
 
@@ -177,5 +170,4 @@ html,body {
     margin-left: auto;
     margin-right: auto;
   }
-
 
