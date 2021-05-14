@@ -21,7 +21,7 @@ function mypress()
 
 function donate()
 {
-    window.open("https://milaap.org/fundraisers/support-taruguardians?mlp_referrer_id=5037932&utm_medium=created&utm_source=virtual_bank_account");
+    window.open("https://milaap.org/fundraisers/support-taruguardians-1#");
 }
 
 function about()
