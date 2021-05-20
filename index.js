@@ -28,33 +28,3 @@ function about()
 {
     window.open("About Us/AboutUs.html");
 }
-
-/* function toggleTheme(){
-    var element=document.body;
-    element.classList.toggle("dark-mode");
-    var cssId = 'darkcovid';
-    if (!document.getElementById(cssId))
-    {
-        var head  = document.getElementsByTagName('head')[0];
-        var link  = document.createElement('link');
-        link.id   = cssId;
-        link.rel  = 'darkmodecss';
-        link.type = 'text/css';
-        link.href = '';
-        link.media = 'all';
-        head.appendChild(link);
-    }
-} */
-
-function changeCSS(cssFile, cssLinkIndex) {
-
-    var oldlink = document.getElementsByClassName("toggle").item(cssLinkIndex);
-
-    var newlink = document.createElement("link");
-    newlink.setAttribute("rel", "stylesheet");
-    newlink.setAttribute("type", "text/css");
-    newlink.setAttribute("href", cssFile);
-    newlink.setAttribute("class","toggle")
-
-    document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
-}
