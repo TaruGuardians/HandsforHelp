@@ -35,13 +35,6 @@ html,body {
       
     }
     
-    .nav-link {
-      
-      
-    }
-    .adjust{
-      
-    }
 
 
 /* About Us  */
@@ -93,7 +86,6 @@ html,body {
 }
 .name{
    text-align: center;
-   font-family: ;
    font-size: 20px;
    color:slategrey;
 }
