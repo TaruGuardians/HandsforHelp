@@ -18,8 +18,9 @@
   <!-- css-stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="states-css/bihar.css">
+  <link rel="stylesheet" class="toggle" href="states-css/darkbihar.css">
   <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/81e1b39fdf.js" crossorigin="anonymous"></script>
   <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -31,6 +32,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="../index.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -45,7 +47,7 @@
 
         <img class="logo" src="../images/taru.png" alt="">
         <div class="adjust">
-          <a class="navbar-brand" href="">HandsforHelp</a>
+          <a class="navbar-brand" href="https://taruguardians.github.io/HandsforHelp/">HandsforHelp</a>
           <i class="fas fa-hand-holding-medical fa-2x"></i>
         </div>
 
@@ -69,6 +71,8 @@
           </ul>
 
         </div>
+        <button onclick="changeCSS('states-css/bihar.css',0)" type="button" class="btn btn-light"><i class="fas fa-sun"></i></button>
+        <button onclick="changeCSS('states-css/darkbihar.css',0)" type="button" class="btn btn-dark"><i class='fas fa-moon'></i></button>
       </nav>
     </div>
   </section>
@@ -255,7 +259,7 @@
     </div>
 
   </section>
-
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
