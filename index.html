@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head color-mode="dark">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HandsforHelp</title>
@@ -15,8 +15,9 @@
 
   <!-- css-stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/covid.css">
+  <link class="toggle" rel="stylesheet" href="css/darkcovid.css">
   <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/81e1b39fdf.js" crossorigin="anonymous"></script>
   <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -59,11 +60,14 @@
             <li class="nav-item">
               <a class="nav-link" href="About Us/AboutUs.html">About Us</a>
             </li>
-            
-           
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="http://send-info.herokuapp.com/">Send Information</a>
+            </li>
           </ul>
-      
+          
         </div>
+        <button onclick="changeCSS('css/darkcovid.css',0)" type="button" class="btn btn-dark"><i class="fas fa-moon"></i></button>
+        <button onclick="changeCSS('css/lightcovid.css',0)" type="button" class="btn btn-light"><i class="fas fa-sun"></i></button> 
       </nav>
      </div>
   </section>
@@ -83,7 +87,7 @@
             <option class="b" value="West Bengal">West Bengal</option>
           </select>
           <p></p>
-          <button type="button" class="search-button" onclick="mypress()">Search</button>
+          <button type="button" class="btn btn-info search-button " onclick="mypress()">Search</button>
         </div>
         
       </center>
