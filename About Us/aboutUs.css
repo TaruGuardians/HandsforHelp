@@ -35,13 +35,13 @@ html,body {
       
     }
     
-    .nav-link {
+    /* .nav-link {
       
       
     }
     .adjust{
       
-    }
+    } */
 
 
 /* About Us  */
@@ -93,10 +93,11 @@ html,body {
 }
 .name{
    text-align: center;
-   font-family: ;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-size: 20px;
    color:slategrey;
 }
+
 /* Our Developers Heading*/
 .devs-head{
  
@@ -105,6 +106,8 @@ html,body {
   font-family: 'Itim', cursive;
   
   }
+
+
 /* Our Developers Inner box*/
 .three{
   text-align:center;
@@ -129,13 +132,6 @@ html,body {
     font-size: 2rem;
     font-family: 'Itim', cursive;
 }
-
-
-
-
-
-
-
 
 /* footer portion */
 
