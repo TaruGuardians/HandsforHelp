@@ -15,8 +15,9 @@
 
   <!-- css-stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/covid.css">
+  <link class="toggle" rel="stylesheet" href="css/darkcovid.css">
   <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/81e1b39fdf.js" crossorigin="anonymous"></script>
   <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -64,6 +65,8 @@
           </ul>
       
         </div>
+        <button onclick="changeCSS('css/lightcovid.css',0)" type="button" class="btn btn-light"><i class="fas fa-sun"></i></button>
+        <button onclick="changeCSS('css/darkcovid.css',0)" type="button" class="btn btn-dark"><i class='fas fa-moon'></i></button>
       </nav>
      </div>
   </section>
@@ -83,7 +86,7 @@
             <option class="b" value="West Bengal">West Bengal</option>
           </select>
           <p></p>
-          <button type="button" class="search-button" onclick="mypress()">Search</button>
+          <button type="button" class="btn btn-info search-button" onclick="mypress()">Search</button>
         </div>
         
       </center>
@@ -106,15 +109,6 @@
             <P id="para">Humanity has experienced the most serious global pandemic in a century while the devastating second wave has broken all previous records. India is facing an acute covid crisis and currently, people are dying due to shortage of oxygen cylinders, hospital beds and plasma donars. The situation in Our Country is a bleak reminder that none of us will be safe until everyone is safe. Hence this is a small initiative by our NGO TaruGuardians where we will arrange the resources for the Covid Warriors and save as many lives as possible. </P>
             </div>
     </section>
-
-
-   
-              
-
-  
-
-
-
 
   </div>
   <!-- Features -->
@@ -157,7 +151,7 @@
           <div class="card-header above">
             <h3>Select State</h3>
           </div>
-          <div class="card-body below">
+          <div class="card-body below"  id="inside_card">
             <h3>We are with you</h3>
             <p>Choose the state where you need information about supplies and contacts.</p>
             <button type="button" class="btn btn-lg btn-block btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -173,13 +167,13 @@
 
       </div>
 
-
+     
       <div class="pricing-column col-lg-4 col-md-4">
-        <div class="card text-center">
+        <div class="card text-center"  >
           <div class="card-header above">
             <h3>Donate</h3>
           </div>
-          <div class="card-body below">
+          <div class="card-body below"  id="inside_card">
             <h3>Help Others</h3>
             <p>Please also donate so we can help others as well as mother our earth.</p>
             <button class="btn btn-lg btn-block btn-outline-success"type="button" onclick="donate()">Donate</button>
@@ -188,17 +182,18 @@
       </div>
 
       <div class="pricing-column col-lg-4 col-md-4">
-        <div class="card text-center">
+        <div class="card text-center" >
           <div class="card-header above">
             <h3>About Us</h3>
           </div>
-          <div class="card-body below">
+          <div class="card-body below"  id="inside_card">
             <h3>Know Us</h3>
             <p>Click below to see who are trying their best to help the society and nature.</p>
             <button class="btn btn-lg btn-block btn-outline-success"type="button" onclick="about()">About us</button>
           </div>
         </div>
       </div>
+      
     </div>
 
   </section>
