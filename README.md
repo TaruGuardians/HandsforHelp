@@ -6,7 +6,7 @@
 
 <h3>Do you want to be a life Saviour?</h3>
 
-Then, You got here right!! 
+Then, You got here right!!
 
 Here is the Link of the website-
 https://taruguardians.github.io/HandsforHelp/
@@ -34,8 +34,8 @@ Happy Submissions :slightly_smiling_face:
 
 ## Contribution Guidelines🏗
 
-We invite you to contribute to this project and make it better. 
-To start contributing, follow the below guidelines: 
+We invite you to contribute to this project and make it better.
+To start contributing, follow the below guidelines:
 
 **1.**  Fork [this](https://github.com/TaruGuardians/HandsforHelp.git) repository.
 
@@ -55,7 +55,7 @@ cd HandsforHelp
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/ur-id/HandsforHelp.git 
+git remote add upstream https://github.com/ur-id/HandsforHelp.git
 ```
 
 **5.** Check the remotes for this repository.
@@ -81,7 +81,7 @@ git checkout -b <your_branch_name>
 **9.** Track your changes:heavy_check_mark: .
 
 ```
-git add . 
+git add .
 ```
 
 **10.** Commit your changes .
@@ -105,7 +105,4 @@ git push -u origin <your_branch_name>
 
 **15** Voila :exclamation: You have made a PR to the HandsforHelp :boom: . Wait for your submission to be accepted and your PR to be merged.
 
-
-
-
-
+Thank you
