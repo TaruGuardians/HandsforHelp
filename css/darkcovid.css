@@ -109,6 +109,7 @@ h1 {
   width:35%;
   height: 3rem;
   border-radius: 30px;
+  outline: none;
   background-color: #312f35;
   color:#fff;
 }
@@ -127,15 +128,14 @@ h1 {
 /* css for search button */
 .search-button{
   
-  color: white;
+
   border-radius: 30px;
   cursor: pointer;
   display: block;
-  margin: auto;
   background: linear-gradient(to right, #ff105f,#ffad06);
   border: 1;
   outline: none;
-  width: 25%;
+  width: 20vh;
    
 
 }
